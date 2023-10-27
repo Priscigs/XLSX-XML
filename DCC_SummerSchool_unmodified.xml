@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcc:digitalCalibrationCertificate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cename.gt/dcc https://cename.gt/dcc/v3.1.2/dcc.xsd" xmlns:dcc="https://cename.gt/dcc" xmlns:si="https://cename.gt/si" schemaVersion="3.1.2">
+  <dcc:administrativeData>
+    <dcc:dccSoftware>
+      <dcc:software>
+        <dcc:name>
+          <dcc:content>GEMIMEG Tool</dcc:content>
+        </dcc:name>
+        <dcc:release>v1.0.0</dcc:release>
+      </dcc:software>
+    </dcc:dccSoftware>
+    <dcc:coreData>
+      <dcc:countryCodeISO3166_1>DE</dcc:countryCodeISO3166_1>
+      <dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
+      <dcc:mandatoryLangCodeISO639_1>en</dcc:mandatoryLangCodeISO639_1>
+      <dcc:uniqueIdentifier>SummerSchool2022_JohnSmith_07-45</dcc:uniqueIdentifier>
+      <dcc:identifications>
+        <dcc:identification>
+          <dcc:issuer>calibrationLaboratory</dcc:issuer>
+          <dcc:value>1234456789summer</dcc:value>
+          <dcc:name>
+            <dcc:content lang="en">Order no.</dcc:content>
+          </dcc:name>
+        </dcc:identification>
+      </dcc:identifications>
+      <dcc:receiptDate>2022-06-17</dcc:receiptDate>
+      <dcc:beginPerformanceDate>2022-06-17</dcc:beginPerformanceDate>
+      <dcc:endPerformanceDate>2022-06-17</dcc:endPerformanceDate>
+      <dcc:performanceLocation>laboratory</dcc:performanceLocation>
+    </dcc:coreData>
+    <dcc:items>
+      <dcc:item>
+        <dcc:name>
+          <dcc:content lang="en">Arduino UNO</dcc:content>
+        </dcc:name>
+        <dcc:manufacturer>
+          <dcc:name>
+            <dcc:content lang="en">Arduino</dcc:content>
+          </dcc:name>
+        </dcc:manufacturer>
+        <dcc:model>V 3.0</dcc:model>
+        <dcc:identifications>
+          <dcc:identification>
+            <dcc:issuer>manufacturer</dcc:issuer>
+            <dcc:value>12345611</dcc:value>
+            <dcc:name>
+              <dcc:content lang="en">Serial no.</dcc:content>
+            </dcc:name>
+          </dcc:identification>
+        </dcc:identifications>
+      </dcc:item>
+      <dcc:item>
+        <dcc:name>
+          <dcc:content lang="en">DS18B20 Temperature sensor</dcc:content>
+        </dcc:name>
+        <dcc:manufacturer>
+          <dcc:name>
+            <dcc:content lang="en">Dellas</dcc:content>
+          </dcc:name>
+        </dcc:manufacturer>
+        <dcc:model>DS18B20</dcc:model>
+        <dcc:identifications>
+          <dcc:identification>
+            <dcc:issuer>manufacturer</dcc:issuer>
+            <dcc:value>12345612</dcc:value>
+            <dcc:name>
+              <dcc:content lang="en">Serial no.</dcc:content>
+            </dcc:name>
+          </dcc:identification>
+        </dcc:identifications>
+      </dcc:item>
+    </dcc:items>
+    <dcc:calibrationLaboratory>
+      <dcc:contact>
+        <dcc:name>
+          <dcc:content lang="en">PTB</dcc:content>
+        </dcc:name>
+        <dcc:eMail>summerschool@ptb.de</dcc:eMail>
+        <dcc:location>
+          <dcc:city>Braunschweig</dcc:city>
+          <dcc:countryCode>DE</dcc:countryCode>
+          <dcc:postCode>38116</dcc:postCode>
+          <dcc:street>Bundesallee</dcc:street>
+          <dcc:streetNo>100</dcc:streetNo>
+        </dcc:location>
+      </dcc:contact>
+    </dcc:calibrationLaboratory>
+    <dcc:respPersons>
+      <dcc:respPerson>
+        <dcc:person>
+          <dcc:name>
+            <dcc:content lang="en">John Smith</dcc:content>
+          </dcc:name>
+        </dcc:person>
+        <dcc:mainSigner>true</dcc:mainSigner>
+      </dcc:respPerson>
+    </dcc:respPersons>
+    <dcc:customer>
+      <dcc:name>
+        <dcc:content lang="en">John Smith</dcc:content>
+      </dcc:name>
+      <dcc:eMail>john.smith@ptb.de</dcc:eMail>
+      <dcc:location>
+        <dcc:city>Braunschweig</dcc:city>
+      </dcc:location>
+    </dcc:customer>
+    <dcc:statements>
+      <dcc:statement refType="basic_recalibration">
+        <dcc:declaration>
+          <dcc:content lang="en">Date when the calibration item is to be recalibrated at the latest according to the customer's specification</dcc:content>
+        </dcc:declaration>
+        <dcc:date>2023-06-24</dcc:date>
+        <dcc:respAuthority>
+          <dcc:name>
+            <dcc:content lang="en">John Smith</dcc:content>
+          </dcc:name>
+          <dcc:eMail>john.smith@ptb.de</dcc:eMail>
+          <dcc:location>
+            <dcc:city>Braunschweig</dcc:city>
+          </dcc:location>
+        </dcc:respAuthority>
+      </dcc:statement>
+    </dcc:statements>
+  </dcc:administrativeData>
+  <dcc:measurementResults>
+    <dcc:measurementResult>
+      <dcc:name>
+        <dcc:content lang="en">Measurement results</dcc:content>
+      </dcc:name>
+      <dcc:usedMethods>
+        <dcc:usedMethod refType="temperatureSensor">
+          <dcc:name>
+            <dcc:content lang="en">Calibration of temperature sensors</dcc:content>
+          </dcc:name>
+        </dcc:usedMethod>
+      </dcc:usedMethods>
+      <dcc:measuringEquipments>
+        <dcc:measuringEquipment refType="basic_normalUsed">
+          <dcc:name>
+            <dcc:content lang="en">Beamex MC6-T</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="en">Multifunction Temperature Calibrator and Communicator</dcc:content>
+          </dcc:description>
+        </dcc:measuringEquipment>
+      </dcc:measuringEquipments>
+      <dcc:influenceConditions>
+        <dcc:influenceCondition refType="basic_temperature">
+          <dcc:name>
+            <dcc:content lang="en">Ambient condition temperature</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="en">These values were not measured but were given based on typical weather conditions at the time of year</dcc:content>
+          </dcc:description>
+          <dcc:data>
+            <dcc:quantity refType="basic_temperatureMin">
+              <dcc:name>
+                <dcc:content lang="en">Temperature min</dcc:content>
+              </dcc:name>
+              <si:real>
+                <si:value>293</si:value>
+                <si:unit>\kelvin</si:unit>
+              </si:real>
+            </dcc:quantity>
+            <dcc:quantity refType="basic_temperatureMax">
+              <dcc:name>
+                <dcc:content lang="en">Temperature max</dcc:content>
+              </dcc:name>
+              <si:real>
+                <si:value>299</si:value>
+                <si:unit>\kelvin</si:unit>
+              </si:real>
+            </dcc:quantity>
+          </dcc:data>
+        </dcc:influenceCondition>
+        <dcc:influenceCondition refType="basic_humidityRelative">
+          <dcc:name>
+            <dcc:content lang="en">Ambient condition relative humidity</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="en">These values were not measured but were given based on typical weather condition at the time of year.</dcc:content>
+          </dcc:description>
+          <dcc:data>
+            <dcc:quantity refType="basic_humidityRelativeMin">
+              <dcc:name>
+                <dcc:content lang="en">Humidity min</dcc:content>
+              </dcc:name>
+              <si:real>
+                <si:value>0.20</si:value>
+                <si:unit>\one</si:unit>
+              </si:real>
+            </dcc:quantity>
+            <dcc:quantity refType="basic_humidityRelativeMax">
+              <dcc:name>
+                <dcc:content lang="en">Humidity max</dcc:content>
+              </dcc:name>
+              <si:real>
+                <si:value>0.70</si:value>
+                <si:unit>\one</si:unit>
+              </si:real>
+            </dcc:quantity>
+          </dcc:data>
+        </dcc:influenceCondition>
+      </dcc:influenceConditions>
+      <dcc:results>
+        <dcc:result refType="measuringResult1">
+          <dcc:name>
+            <dcc:content lang="en">Measuring results</dcc:content>
+          </dcc:name>
+          <dcc:data>
+            <dcc:list>
+              <dcc:quantity refType="basic_referenceValue">
+                <dcc:name>
+                  <dcc:content lang="en">Reference value</dcc:content>
+                </dcc:name>
+                <si:hybrid>
+                  <si:realListXMLList>
+                    <si:valueXMLList>293.15 293.15</si:valueXMLList>
+                    <si:unitXMLList>\kelvin</si:unitXMLList>
+                  </si:realListXMLList>
+                  <si:realListXMLList>
+                    <si:valueXMLList>20 20</si:valueXMLList>
+                    <si:unitXMLList>\degreecelsius</si:unitXMLList>
+                  </si:realListXMLList>
+                </si:hybrid>
+              </dcc:quantity>
+              <dcc:quantity refType="basic_measuredValue">
+                <dcc:name>
+                  <dcc:content lang="en">Indicated measured value probe</dcc:content>
+                </dcc:name>
+                <si:hybrid>
+                  <si:realListXMLList>
+                    <si:valueXMLList>293.25 293.35</si:valueXMLList>
+                    <si:unitXMLList>\kelvin</si:unitXMLList>
+                  </si:realListXMLList>
+                  <si:realListXMLList>
+                    <si:valueXMLList>20.1 20.2</si:valueXMLList>
+                    <si:unitXMLList>\degreecelsius</si:unitXMLList>
+                  </si:realListXMLList>
+                </si:hybrid>
+              </dcc:quantity>
+              <dcc:quantity refType="basic_measurementError">
+                <dcc:name>
+                  <dcc:content lang="en">Measurement error</dcc:content>
+                </dcc:name>
+                <si:realListXMLList>
+                  <si:valueXMLList>0.1 0.2</si:valueXMLList>
+                  <si:unitXMLList>\kelvin</si:unitXMLList>
+                  <si:expandedUncXMLList>
+                    <si:uncertaintyXMLList>0.05</si:uncertaintyXMLList>
+                    <si:coverageFactorXMLList>2</si:coverageFactorXMLList>
+                    <si:coverageProbabilityXMLList>0.95</si:coverageProbabilityXMLList>
+                    <si:distributionXMLList>rectangle</si:distributionXMLList>
+                  </si:expandedUncXMLList>
+                </si:realListXMLList>
+              </dcc:quantity>
+            </dcc:list>
+          </dcc:data>
+        </dcc:result>
+      </dcc:results>
+    </dcc:measurementResult>
+  </dcc:measurementResults>
+</dcc:digitalCalibrationCertificate>
